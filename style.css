@@ -1,0 +1,113 @@
+body {
+  background-color: #f5f0db;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+
+}
+section img{
+    position: fixed;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 75px;    
+
+    
+}
+
+#main {
+  position:relative;
+  color: red;
+
+  width: 690px;
+  height: 270px;
+  top: 110px;
+  left: 500px;
+  color: #000;
+  padding-left: 30px;
+    padding-top: 0px;
+
+  font-family: Inter;
+  font-size: 30px;
+
+  font-weight: 700;
+  line-height: normal;
+ 
+
+}
+.foot{
+    position: absolute;
+    bottom: 0px;
+    background-color: #FB7F7F;
+    left: 0;
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+
+    border-collapse: collapse;
+    font-family: Inter;
+    font-size: 20px;
+  
+    font-weight: 700;
+    line-height: normal;
+}
+th , td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+  
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.Qualificatons {
+ 
+    font-family: Inter;
+    font-size: px;
+  
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback , input , textarea{
+
+    border: 0;
+    width: 300px;
+}
+
+.feedback  , textarea{
+    height: 50px;
+}
+
+.feedback  button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 100px;    
+
+}
+
+.foot img{
+    height: 45px;
+    width: 45px;
+    padding: 30px;
+    justify-content: center;
+}
+.foot a{
+    justify-content: center;
+   
+}
+
